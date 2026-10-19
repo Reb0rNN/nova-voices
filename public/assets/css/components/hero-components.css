@@ -1,0 +1,478 @@
+.hero_label {
+    margin-bottom: 17px;
+
+    color: #984a91;
+
+    font-family: "Caveat", cursive;
+
+    font-size: 18px;
+    font-weight: 600;
+
+    line-height: 1;
+}
+
+
+/* =========================
+   MAIN TITLE
+========================= */
+
+.hero_title {
+    font-family: "Montserrat", sans-serif;
+
+    font-size: 64px;
+    font-weight: 800;
+
+    line-height: 0.91;
+
+    letter-spacing: -2.2px;
+
+    text-transform: uppercase;
+
+    color: #111;
+}
+
+
+.hero_title > span:nth-child(2) {
+    margin-top: 5px;
+}
+
+
+/* =========================
+   STORY
+========================= */
+
+.story {
+    margin-top: 7px;
+}
+
+
+/* =========================
+   COLORED LETTERS
+========================= */
+
+.letter {
+    position: relative;
+
+    width: 72px;
+    height: 70px;
+
+    margin-right: 3px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    border: 2px solid #111;
+
+    font-family: "Montserrat", sans-serif;
+
+    font-size: 55px;
+    font-weight: 800;
+
+    line-height: 1;
+
+    color: #fff;
+
+    transform-origin: center;
+}
+
+
+/* =========================
+   ROTATIONS
+========================= */
+
+.letter:nth-child(1) {
+    transform: rotate(-2deg);
+}
+
+.letter:nth-child(2) {
+    transform: rotate(1deg);
+}
+
+.letter:nth-child(3) {
+    transform: rotate(-1deg);
+}
+
+.letter:nth-child(4) {
+    transform: rotate(3deg);
+}
+
+.letter:nth-child(5) {
+    transform: rotate(-1deg);
+}
+
+.letter:nth-child(6) {
+    transform: rotate(2deg);
+}
+
+.letter:nth-child(7) {
+    transform: rotate(-1deg);
+}
+
+.letter:nth-child(8) {
+    transform: rotate(3deg);
+}
+
+
+/* =========================
+   COLORS
+========================= */
+
+.pink {
+    background: #dc2778;
+}
+
+.blue {
+    background: #159ab7;
+}
+
+.yellow {
+    background: #f3c72d;
+
+    color: #111;
+}
+
+.purple {
+    background: #98439a;
+}
+
+.green {
+    background: #6fa747;
+}
+
+.orange {
+    background: #ef8a1b;
+}
+
+.white {
+    background: #f6f5f0;
+
+    color: #111;
+}
+
+.black {
+    background: #111;
+}
+
+
+/* =========================
+   DESCRIPTION
+========================= */
+
+.hero_desc {
+    margin-top: 25px;
+
+    color: #444;
+
+    font-family: "Unbounded", sans-serif;
+
+    font-size: 16px;
+    font-weight: 400;
+
+    line-height: 1.65;
+}
+
+
+/* =========================
+   BUTTONS
+========================= */
+
+.hero_button {
+    height: 51px;
+
+    padding: 0 29px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    border: 2px solid #111;
+
+    font-family: "Unbounded", sans-serif;
+
+    font-size: 14px;
+    font-weight: 800;
+
+    letter-spacing: 0.2px;
+
+    text-decoration: none;
+
+    transition:
+        background-color 0.2s ease,
+        color 0.2s ease,
+        transform 0.2s ease;
+}
+
+
+/* Смотреть работы */
+
+.hero_button--primary {
+    min-width: 227px;
+
+    background: #111;
+
+    color: #fff;
+}
+
+.hero_button--primary:hover {
+    background: #dc2778;
+
+    color: #fff;
+
+    transform: translateY(-2px);
+}
+
+
+/* О студии */
+
+.hero_button--secondary {
+    min-width: 145px;
+
+    background: transparent;
+
+    color: #111;
+}
+
+.hero_button--secondary:hover {
+    background: #111;
+
+    color: #fff;
+
+    transform: translateY(-2px);
+}
+
+
+/* =========================
+   COLLAGE
+========================= */
+
+.collage-card {
+    border: 2px solid #111;
+
+    animation: floating 4s ease-in-out infinite;
+
+    will-change: transform;
+}
+
+
+/* =========================
+   V
+========================= */
+
+.card-v {
+    width: 138px;
+    height: 140px;
+
+    background: #f4cc2d;
+
+    flex-direction: column;
+
+    align-items: flex-start;
+
+    padding-left: 27px;
+
+    transform: rotate(-8deg);
+
+    animation-delay: -0.7s;
+}
+
+
+.v-letter {
+    font-family: "Montserrat", sans-serif;
+
+    font-size: 68px;
+    font-weight: 800;
+
+    line-height: 0.8;
+}
+
+
+.card-v span {
+    margin-top: 18px;
+
+    color: #665e28;
+
+    font-family: "Caveat", cursive;
+
+    font-size: 12px;
+}
+
+
+/* =========================
+   AUDIO
+========================= */
+
+.card-audio {
+    width: 123px;
+    height: 108px;
+
+    background: #f6f5f0;
+
+    flex-direction: column;
+
+    transform: rotate(3deg);
+
+    animation-delay: -2s;
+}
+
+
+.audio-title {
+    position: absolute;
+
+    top: 17px;
+    left: 17px;
+
+    font-family: "Caveat", cursive;
+
+    font-size: 12px;
+}
+
+
+.audio-bars {
+    height: 40px;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 4px;
+
+    margin-top: 20px;
+}
+
+
+.audio-bars i {
+    display: block;
+
+    width: 5px;
+
+    background: #111;
+
+    border-radius: 1px;
+}
+
+
+.audio-bars i:nth-child(1) {
+    height: 18px;
+}
+
+.audio-bars i:nth-child(2) {
+    height: 30px;
+}
+
+.audio-bars i:nth-child(3) {
+    height: 23px;
+}
+
+.audio-bars i:nth-child(4) {
+    height: 38px;
+}
+
+.audio-bars i:nth-child(5) {
+    height: 28px;
+}
+
+.audio-bars i:nth-child(6) {
+    height: 35px;
+}
+
+.audio-bars i:nth-child(7) {
+    height: 20px;
+}
+
+.audio-bars i:nth-child(8) {
+    height: 33px;
+}
+
+
+/* =========================
+   NOVAVOICE
+========================= */
+
+.card-novoice {
+    width: 183px;
+    height: 56px;
+
+    background: #98429b;
+
+    color: #fff;
+
+    font-family: "Caveat", cursive;
+
+    font-size: 19px;
+    font-weight: 600;
+
+    transform: rotate(-6deg);
+
+    animation-delay: -1.5s;
+}
+
+
+/* =========================
+   EXCLAMATION
+========================= */
+
+.card-exclamation {
+    width: 120px;
+    height: 99px;
+
+    background: #dc2778;
+
+    color: #fff;
+
+    font-family: "Montserrat", sans-serif;
+
+    font-size: 66px;
+    font-weight: 800;
+
+    transform: rotate(5deg);
+
+    animation-delay: -3s;
+}
+
+
+/* =========================
+   STARS
+========================= */
+
+.card-stars {
+    width: 99px;
+    height: 75px;
+
+    background: #159ab7;
+
+    color: #fff;
+
+    font-family: "Unbounded", sans-serif;
+
+    font-size: 22px;
+    font-weight: 600;
+
+    letter-spacing: 3px;
+
+    transform: rotate(-5deg);
+
+    animation-delay: -2.4s;
+}
+
+
+/* =========================
+   FLOATING
+========================= */
+
+@keyframes floating {
+
+    0% {
+        translate: 0 0;
+    }
+
+    50% {
+        translate: 0 -7px;
+    }
+
+    100% {
+        translate: 0 0;
+    }
+}

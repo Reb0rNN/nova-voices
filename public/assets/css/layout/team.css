@@ -1,0 +1,130 @@
+
+.team {
+    width: 100%;
+    padding: 70px 0 80px;
+    background: #f7f6f1;
+}
+
+.team_container {
+    width: min(1140px, calc(100% - 40px));
+    margin: 0 auto;
+}
+
+.team_title {
+    margin: 0 0 55px;
+
+    font-family: "Unbounded", sans-serif;
+    font-size: 52px;
+    font-weight: 900;
+    line-height: 1;
+
+    color: #111;
+}
+
+
+.team_grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+
+    align-items: stretch;
+}
+
+.team_card {
+    min-height: 255px;
+    padding: 25px 20px 28px;
+
+    background: #f7f6f1;
+
+    border: 2px solid #111;
+
+    box-sizing: border-box;
+
+    transition:
+        transform 0.25s ease,
+        box-shadow 0.25s ease;
+
+    cursor: default;
+}
+
+
+/* Наклон каждой карточки */
+
+.team_card_1 {
+    transform: rotate(-2deg);
+}
+
+.team_card_2 {
+    transform: rotate(1.2deg);
+}
+
+.team_card_3 {
+    transform: rotate(-0.8deg);
+}
+
+.team_card_4 {
+    transform: rotate(1.8deg);
+}
+
+
+/* При наведении карточка становится ровной */
+
+.team_card:hover {
+    transform: rotate(0deg) translateY(-5px);
+
+    box-shadow:
+        8px 8px 0 #111;
+}
+
+.team_avatar {
+    width: 61px;
+    height: 61px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 18px;
+
+    background: #111;
+    color: #fff;
+
+    font-family: "Unbounded", sans-serif;
+    font-size: 23px;
+    font-weight: 900;
+
+    border: 2px solid #111;
+}
+
+.team_name {
+    margin: 0 0 10px;
+
+    font-family: "Unbounded", sans-serif;
+    font-size: 19px;
+    font-weight: 900;
+
+    line-height: 1.1;
+
+    color: #111;
+}
+
+
+.team_role {
+    margin: 0 0 20px;
+
+    font-family: "Caveat", sans-serif;
+    font-size: 15px;
+    font-style: italic;
+
+    color: #d72b75;
+}
+
+.team_description {
+    margin: 0;
+
+    font-family: "Unbounded", sans-serif;
+    font-size: 15px;
+    line-height: 1.55;
+
+    color: #666;
+}
