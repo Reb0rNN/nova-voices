@@ -128,3 +128,52 @@
 
     color: #666;
 }
+
+/* =========================================
+   ОСОБЕННАЯ КАРТОЧКА ДАНИИ
+========================================= */
+
+.team_card_1 {
+    background: #FFD43B;
+    border: 2px solid #171717;
+
+    transform: rotate(-2deg);
+
+    color: #171717;
+}
+
+/* Аватар */
+
+.team_card_1 .team_avatar {
+    background: #171717;
+    color: #FFD43B;
+
+    border: 2px solid #171717;
+}
+
+/* Имя */
+
+.team_card_1 .team_name {
+    color: #171717;
+}
+
+/* Роль */
+
+.team_card_1 .team_role {
+    color: #8B2450;
+    font-weight: 600;
+}
+
+/* Описание */
+
+.team_card_1 .team_desc {
+    color: #302719;
+}
+
+/* Hover */
+
+.team_card_1:hover {
+    transform: rotate(0deg) translateY(-5px);
+
+    box-shadow: 8px 8px 0 #171717;
+}
