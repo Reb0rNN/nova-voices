@@ -1,0 +1,212 @@
+
+.about {
+    width: 100%;
+    padding: 65px 0 80px;
+    background: #f6f5f0;
+}
+
+.about_container {
+    width: 1060px;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: 520px 1fr;
+
+    column-gap: 90px;
+
+    align-items: start;
+}
+
+.about_content {
+    width: 100%;
+}
+
+
+.about_title {
+    margin: 0 0 34px 0;
+
+    font-family: "Montserrat", sans-serif;
+
+    font-size: 52px;
+    font-weight: 800;
+
+    line-height: 1;
+
+    letter-spacing: -2px;
+
+    color: #111;
+}
+
+.about_text {
+    margin: 0 0 24px 0;
+
+    font-family: "Unbounded", sans-serif;
+
+    font-size: 16px;
+    font-weight: 400;
+
+    line-height: 1.65;
+
+    color: #4d4d4d;
+}
+
+
+.about_text:last-child {
+    margin-bottom: 0;
+}
+
+.about_decor {
+    position: relative;
+
+    width: 100%;
+    height: 390px;
+}
+
+.about_card {
+    position: absolute;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    box-sizing: border-box;
+
+    border: 2px solid #111;
+
+    color: #111;
+}
+
+.about_card_green {
+    top: 0;
+    left: 15px;
+
+    width: 160px;
+    height: 160px;
+
+    padding: 20px;
+
+    background: #78ad43;
+
+    transform: rotate(-5deg);
+
+    z-index: 2;
+}
+
+
+.about_card_green p {
+    margin: 0;
+
+    font-family: "Unbounded", sans-serif;
+
+    font-size: 14px;
+    font-weight: 600;
+
+    line-height: 1.55;
+
+    font-style: italic;
+
+    color: #fff;
+
+    text-align: center;
+}
+
+.about_card_yellow {
+    top: 25px;
+    right: 0;
+
+    width: 160px;
+    height: 110px;
+
+    flex-direction: column;
+
+    background: #f5cd25;
+
+    transform: rotate(4deg);
+
+    z-index: 2;
+}
+
+
+.about_card_yellow strong {
+    margin: 0;
+
+    font-family: "Montserrat", sans-serif;
+
+    font-size: 48px;
+    font-weight: 900;
+
+    line-height: 1;
+}
+
+
+.about_card_yellow span {
+    margin-top: 10px;
+
+    font-family: "Unbounded", sans-serif;
+
+    font-size: 13px;
+    font-weight: 800;
+
+    line-height: 1;
+
+    text-transform: uppercase;
+}
+
+
+.about_card_white {
+    left: 30px;
+    bottom: 25px;
+
+    width: 165px;
+    height: 95px;
+
+    padding: 15px;
+
+    background: #f6f5f0;
+
+    transform: rotate(2deg);
+
+    z-index: 1;
+}
+
+
+.about_card_white p {
+    margin: 0;
+
+    font-family: "Caveat", sans-serif;
+
+    font-size: 18px;
+    font-weight: 500;
+
+    line-height: 1.5;
+
+    font-style: italic;
+
+    text-align: center;
+
+    color: #111;
+}
+
+.about_card_purple {
+    right: 0;
+    bottom: 45px;
+
+    width: 210px;
+    height: 55px;
+
+    background: #a23ca5;
+
+    color: #fff;
+
+    font-family: "Montserrat", sans-serif;
+
+    font-size: 15px;
+    font-weight: 800;
+
+    white-space: nowrap;
+
+    transform: rotate(-3deg);
+
+    z-index: 2;
+}

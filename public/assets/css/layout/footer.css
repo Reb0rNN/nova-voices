@@ -1,0 +1,111 @@
+/* =========================
+   FOOTER
+========================= */
+
+.footer {
+    width: 100%;
+
+    background: #f5f3ee;
+    color: #111;
+
+    padding: 15px 0 20px;
+}
+
+.footer_container {
+    width: 100%;
+    max-width: 1240px;
+
+    margin: 0 auto;
+    padding: 0 40px;
+
+    box-sizing: border-box;
+
+    border-top: 1px solid #111;
+
+    /* Убрали min-height */
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/* =========================
+   LOGO
+========================= */
+
+.footer_logo {
+    display: block;
+
+    width: 100px;
+
+    text-decoration: none;
+}
+
+.footer_logo img {
+    display: block;
+
+    width: 100%;
+    height: auto;
+
+    object-fit: contain;
+}
+
+
+/* =========================
+   INFO
+========================= */
+
+.footer_info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 6px;
+
+    text-align: center;
+
+    font-family: "Work Sans", sans-serif;
+}
+
+.footer_info span {
+    font-size: 10px;
+    font-weight: 500;
+
+    letter-spacing: 0.5px;
+}
+
+.footer_info small {
+    font-size: 8px;
+    font-weight: 400;
+
+    letter-spacing: 1px;
+
+    color: #777;
+}
+
+
+/* =========================
+   BACK TO TOP
+========================= */
+
+.footer_top {
+    color: #111;
+
+    font-family: "Work Sans", sans-serif;
+    font-size: 9px;
+    font-weight: 500;
+
+    text-decoration: none;
+    text-transform: uppercase;
+
+    transition:
+        color 0.2s ease,
+        transform 0.2s ease;
+}
+
+.footer_top:hover {
+    color: #d72b75;
+
+    transform: translateX(-4px);
+}

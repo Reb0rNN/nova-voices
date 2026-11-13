@@ -1,0 +1,81 @@
+{
+  "workbench.colorTheme": "Dark Modern",
+
+  "editor.fontFamily": "Cascadia Code, Consolas, monospace",
+  "editor.fontSize": 14,
+  "editor.lineHeight": 23,
+  "editor.fontLigatures": true,
+
+  "editor.minimap.enabled": false,
+  "editor.formatOnSave": true,
+  "editor.wordWrap": "on",
+  "editor.stickyScroll.enabled": true,
+  "editor.smoothScrolling": true,
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.renderLineHighlight": "gutter",
+
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+
+  "explorer.compactFolders": false,
+  "breadcrumbs.enabled": true,
+  "workbench.startupEditor": "none",
+  "files.autoSave": "off",
+
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  "workbench.colorCustomizations": {
+    "editor.background": "#0A0D0B",
+    "editor.foreground": "#D8E5DB",
+
+    "sideBar.background": "#0D110F",
+    "sideBar.foreground": "#C6D4CA",
+
+    "activityBar.background": "#080B09",
+    "activityBar.foreground": "#6CFF9A",
+    "activityBar.inactiveForeground": "#64736A",
+
+    "titleBar.activeBackground": "#0A0D0B",
+    "titleBar.activeForeground": "#D8E5DB",
+
+    "statusBar.background": "#10251A",
+    "statusBar.foreground": "#D7FBE4",
+
+    "editorCursor.foreground": "#6CFF9A",
+    "editor.selectionBackground": "#1A4730",
+    "editor.lineHighlightBackground": "#111A14",
+
+    "editorLineNumber.foreground": "#59665D",
+    "editorLineNumber.activeForeground": "#7DE3A1",
+
+    "editorIndentGuide.background1": "#202A23",
+    "editorIndentGuide.activeBackground1": "#43D477",
+
+    "panel.background": "#0D110F",
+    "terminal.background": "#0A0D0B",
+    "terminal.foreground": "#D8E5DB",
+
+    "focusBorder": "#43D477",
+    "inputOption.activeBorder": "#43D477",
+
+    "list.activeSelectionBackground": "#1A4730",
+    "list.activeSelectionForeground": "#E0FFE9",
+    "list.hoverBackground": "#15241A",
+
+    "tab.activeBackground": "#0A0D0B",
+    "tab.activeForeground": "#6CFF9A",
+    "tab.inactiveBackground": "#0D110F",
+    "tab.inactiveForeground": "#849389",
+
+    "button.background": "#1D7540",
+    "button.foreground": "#FFFFFF",
+    "button.hoverBackground": "#258F4E",
+  },
+  "workbench.sideBar.location": "right",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.activityBar.compact": true,
+}
