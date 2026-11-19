@@ -1,179 +1,275 @@
+/* =========================================
+   TEAM SECTION
+========================================= */
 
 .team {
-    width: 100%;
-    padding: 70px 0 80px;
-    background: #f7f6f1;
+  width: 100%;
+  padding: 70px 0 80px;
+  background: #f7f6f1;
 }
 
 .team_container {
-    width: min(1140px, calc(100% - 40px));
-    margin: 0 auto;
+  width: min(1140px, calc(100% - 40px));
+  margin: 0 auto;
 }
 
 .team_title {
-    margin: 0 0 55px;
+  margin: 0 0 55px;
 
-    font-family: "Unbounded", sans-serif;
-    font-size: 52px;
-    font-weight: 900;
-    line-height: 1;
+  font-family: "Unbounded", sans-serif;
+  font-size: 52px;
+  font-weight: 900;
+  line-height: 1;
 
-    color: #111;
-}
-
-
-.team_grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 24px;
-
-    align-items: stretch;
-}
-
-.team_card {
-    min-height: 255px;
-    padding: 25px 20px 28px;
-
-    background: #f7f6f1;
-
-    border: 2px solid #111;
-
-    box-sizing: border-box;
-
-    transition:
-        transform 0.25s ease,
-        box-shadow 0.25s ease;
-
-    cursor: default;
-}
-
-
-/* Наклон каждой карточки */
-
-.team_card_1 {
-    transform: rotate(-2deg);
-}
-
-.team_card_2 {
-    transform: rotate(1.2deg);
-}
-
-.team_card_3 {
-    transform: rotate(-0.8deg);
-}
-
-.team_card_4 {
-    transform: rotate(1.8deg);
-}
-
-
-/* При наведении карточка становится ровной */
-
-.team_card:hover {
-    transform: rotate(0deg) translateY(-5px);
-
-    box-shadow:
-        8px 8px 0 #111;
-}
-
-.team_avatar {
-    width: 61px;
-    height: 61px;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    margin-bottom: 18px;
-
-    background: #111;
-    color: #fff;
-
-    font-family: "Unbounded", sans-serif;
-    font-size: 23px;
-    font-weight: 900;
-
-    border: 2px solid #111;
-}
-
-.team_name {
-    margin: 0 0 10px;
-
-    font-family: "Unbounded", sans-serif;
-    font-size: 19px;
-    font-weight: 900;
-
-    line-height: 1.1;
-
-    color: #111;
-}
-
-
-.team_role {
-    margin: 0 0 20px;
-
-    font-family: "Caveat", sans-serif;
-    font-size: 15px;
-    font-style: italic;
-
-    color: #d72b75;
-}
-
-.team_description {
-    margin: 0;
-
-    font-family: "Unbounded", sans-serif;
-    font-size: 15px;
-    line-height: 1.55;
-
-    color: #666;
+  color: #111;
 }
 
 /* =========================================
-   ОСОБЕННАЯ КАРТОЧКА ДАНИИ
+   GRID
+========================================= */
+
+.team_grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+
+  align-items: stretch;
+}
+
+/* =========================================
+   CARD
+========================================= */
+
+.team_card {
+  min-height: 255px;
+  padding: 25px 20px 28px;
+
+  background: #f7f6f1;
+
+  border: 2px solid #111;
+
+  box-sizing: border-box;
+
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
+
+  cursor: default;
+}
+
+/* =========================================
+   CARD ROTATIONS
 ========================================= */
 
 .team_card_1 {
-    background: #FFD43B;
-    border: 2px solid #171717;
-
-    transform: rotate(-2deg);
-
-    color: #171717;
+  transform: rotate(-2deg);
 }
 
-/* Аватар */
+.team_card_2 {
+  transform: rotate(1.2deg);
+}
+
+.team_card_3 {
+  transform: rotate(-0.8deg);
+}
+
+.team_card_4 {
+  transform: rotate(1.8deg);
+}
+
+.team_card_5 {
+  transform: rotate(-1.5deg);
+}
+
+.team_card_6 {
+  transform: rotate(1deg);
+}
+
+.team_card_7 {
+  transform: rotate(-1deg);
+}
+
+.team_card_8 {
+  transform: rotate(1.5deg);
+}
+
+/* =========================================
+   HOVER
+========================================= */
+
+.team_card:hover {
+  transform: rotate(0deg) translateY(-5px);
+
+  box-shadow: 8px 8px 0 #111;
+}
+
+/* =========================================
+   AVATAR
+========================================= */
+
+.team_avatar {
+  width: 61px;
+  height: 61px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom: 18px;
+
+  background: #111;
+  color: #fff;
+
+  font-family: "Unbounded", sans-serif;
+  font-size: 23px;
+  font-weight: 900;
+
+  border: 2px solid #111;
+}
+
+/* =========================================
+   NAME
+========================================= */
+
+.team_name {
+  margin: 0 0 10px;
+
+  font-family: "Unbounded", sans-serif;
+  font-size: 19px;
+  font-weight: 900;
+
+  line-height: 1.1;
+
+  color: #111;
+}
+
+/* =========================================
+   TELEGRAM USERNAME
+========================================= */
+
+/* Telegram username */
+
+.team_username {
+  display: inline-block;
+
+  margin: -5px 0 10px;
+
+  font-family: "Caveat", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+
+  color: #229ed9;
+  text-decoration: none;
+
+  cursor: pointer;
+
+  transition:
+    color 0.2s ease,
+    transform 0.2s ease;
+}
+
+/* Hover */
+
+.team_username:hover {
+  color: #147fb3;
+
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+/* Active */
+
+.team_username:active {
+  transform: translateY(1px);
+}
+
+/* Focus */
+
+.team_username:focus-visible {
+  outline: 2px solid #229ed9;
+  outline-offset: 3px;
+}
+
+/* =========================================
+   ROLE
+========================================= */
+
+.team_role {
+  margin: 0 0 20px;
+
+  font-family: "Caveat", sans-serif;
+  font-size: 15px;
+  font-style: italic;
+
+  color: #d72b75;
+}
+
+/* =========================================
+   DESCRIPTION
+========================================= */
+
+.team_desc {
+  margin: 0;
+
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  line-height: 1.55;
+
+  color: #666;
+}
+
+/* =========================================
+   SPECIAL DANIA CARD
+========================================= */
+
+.team_card_1 {
+  background: #ffd43b;
+  border: 2px solid #171717;
+
+  transform: rotate(-2deg);
+
+  color: #171717;
+}
+
+/* Avatar */
 
 .team_card_1 .team_avatar {
-    background: #171717;
-    color: #FFD43B;
+  background: #171717;
+  color: #ffd43b;
 
-    border: 2px solid #171717;
+  border: 2px solid #171717;
 }
 
-/* Имя */
+/* Name */
 
 .team_card_1 .team_name {
-    color: #171717;
+  color: #171717;
 }
 
-/* Роль */
+/* Role */
 
 .team_card_1 .team_role {
-    color: #8B2450;
-    font-weight: 600;
+  color: #8b2450;
+  font-weight: 600;
 }
 
-/* Описание */
+/* Description */
 
 .team_card_1 .team_desc {
-    color: #302719;
+  color: #302719;
+}
+
+/* Telegram */
+
+.team_card_1 .team_username {
+  color: #229ed9;
 }
 
 /* Hover */
 
 .team_card_1:hover {
-    transform: rotate(0deg) translateY(-5px);
+  transform: rotate(0deg) translateY(-5px);
 
-    box-shadow: 8px 8px 0 #171717;
+  box-shadow: 8px 8px 0 #171717;
 }

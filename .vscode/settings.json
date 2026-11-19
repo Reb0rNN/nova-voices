@@ -73,9 +73,10 @@
 
     "button.background": "#1D7540",
     "button.foreground": "#FFFFFF",
-    "button.hoverBackground": "#258F4E",
+    "button.hoverBackground": "#258F4E"
   },
   "workbench.sideBar.location": "right",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.activityBar.compact": true,
+  "cSpell.language": "en,ru-RU"
 }
